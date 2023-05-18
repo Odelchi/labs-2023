@@ -72,7 +72,7 @@ static void __exit counter_finished(void) {
 	kthread_stop(ts);
 	device_destroy(cls, MKDEV(Major, 0));
 	class_destroy(cls);
-	unregister_chrdev(Major, "inex_counter");
+	unregister_chrdev(Major, "odelchi_counter");
 	printk(KERN_INFO "Counter: i am finished.\n");
 }
 
