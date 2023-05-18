@@ -8,7 +8,7 @@ from gi.repository import GLib
 import datetime
 
 # Путь к файлу где хранится информация об использовании интернета.
-USAGE_FILE = "/home/inex/dev/Odelchi/internet-usage/file.txt"
+USAGE_FILE = "/home/Odelchi/dev/Linux/internet-usage/file.txt"
 
 session_bus = SystemBus()
 loop = GLib.MainLoop()
