@@ -9,11 +9,11 @@
 #include <linux/poll.h>
 #include <linux/kthread.h>
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Inex Code");
+MODULE_AUTHOR("Odelchi");
 MODULE_DESCRIPTION("A counter reader device");
 MODULE_VERSION("0.0.3");
 
-#define DEVICE_NAME "inex_counter"
+#define DEVICE_NAME "odelchi_counter"
 
 static int device_open(struct inode *, struct file *);
 static int device_release(struct inode *, struct file *);
