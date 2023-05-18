@@ -4,7 +4,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define DEVICE_PATH "/dev/chardev"
+#define DEVICE_PATH "/dev/odelchi_counter"
 #define FILE_PATH "/var/log/character_driver.log"
 
 int main()
